@@ -165,3 +165,4 @@ C:\Users\g.botton\Documents\Stacktim.Test\obj\Debug\net9.0\refint\Stacktim.Test.
 C:\Users\g.botton\Documents\Stacktim.Test\obj\Debug\net9.0\Stacktim.Test.pdb
 C:\Users\g.botton\Documents\Stacktim.Test\obj\Debug\net9.0\Stacktim.Test.genruntimeconfig.cache
 C:\Users\g.botton\Documents\Stacktim.Test\obj\Debug\net9.0\ref\Stacktim.Test.dll
+C:\Users\g.botton\Documents\Stacktim.Test\obj\Debug\net9.0\Stacktim.Test.sourcelink.json
