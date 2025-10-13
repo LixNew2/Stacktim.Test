@@ -1,10 +1,10 @@
 ﻿# Chemin vers votre projet/test project
-$projectPath = ".\Stacktim.Test.csproj"
+$projectPath = Join-Path $PSScriptRoot "Stacktim.Test.csproj"
 
-# Dossier pour stocker les rapports de couverture
-$coverageDir = "$PSScriptRoot\Coverage"
-$coverageFile = "$coverageDir\coverage.xml"
-$reportDir = "$coverageDir\Report"
+# Dossier pour tocker les rapports de couverture
+$coverageDir = $PSScriptRoot
+$coverageFile = Join-Path $PSScriptRoot "coverage.xml"
+$reportDir = Join-Path $PSScriptRoot "Report"
 
 # Crée les dossiers si nécessaire
 if (-Not (Test-Path $coverageDir)) {

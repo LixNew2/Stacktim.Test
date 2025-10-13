@@ -69,6 +69,17 @@ public class PlayersControllerTests
         Assert.IsType<BadRequestObjectResult>(result);
     }
 
+    public void CreatePlayer_WithDuplicateEmail_ReturnsBadRequest()
+    {
+        var _context = TestDbContextFactory.Create();
+        var config_mapper = new MapperConfiguration(cfg => { cfg.AddProfile<MappingProfile>(); });
+        var controller = new PlayersController(_context, config_mapper.CreateMapper());
+        var result = controller.createPlayer(new CreatePlayerDto { Pseudo = "TestPlayer", Email = "test1@example.com" });
+        TestDbContextFactory.Destroy(_context);
+
+        Assert.IsType<BadRequestObjectResult>(result);
+    }
+
     [Fact]
     public void DeletePlayer_WithValidId_ReturnsNoContent()
     {
@@ -88,7 +99,7 @@ public class PlayersControllerTests
         var config_mapper = new MapperConfiguration(cfg => { cfg.AddProfile<MappingProfile>(); });
         var controller = new PlayersController(_context, config_mapper.CreateMapper());
         var result = controller.getPlayerLeaderboard();
-       
+
         var players = (((OkObjectResult)result).Value as IEnumerable<PlayerModel>)?.ToList();
         for (int i = 0; i < players.Count - 1; i++)
         {
