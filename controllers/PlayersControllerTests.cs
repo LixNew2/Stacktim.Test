@@ -69,6 +69,7 @@ public class PlayersControllerTests
         Assert.IsType<BadRequestObjectResult>(result);
     }
 
+    [Fact]
     public void CreatePlayer_WithDuplicateEmail_ReturnsBadRequest()
     {
         var _context = TestDbContextFactory.Create();

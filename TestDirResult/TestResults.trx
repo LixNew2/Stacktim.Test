@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="ab2bc481-3783-46a1-bff9-c05ad548936d" name="g.botton@XFIRLPDKPUSR005 2025-10-16 11:35:29" runUser="XEFI\g.botton" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-10-16T11:35:29.1463820+02:00" queuing="2025-10-16T11:35:29.1463821+02:00" start="2025-10-16T11:35:27.5778204+02:00" finish="2025-10-16T11:35:29.3868448+02:00" />
+  <TestSettings name="default" id="534351e7-0a9b-4ecf-9f51-980283af14ea">
+    <Deployment runDeploymentRoot="g.botton_XFIRLPDKPUSR005_2025-10-16_11_35_29" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e612917f-8c98-4869-8d4c-44eb8bad3202" testId="0eb4b715-f691-6706-9f99-d39a6237219a" testName="StacktimApi.Test.PlayersControllerTests.CreatePlayer_WithDuplicateEmail_ReturnsBadRequest" computerName="XFIRLPDKPUSR005" duration="00:00:00.0079469" startTime="2025-10-16T11:35:29.1393029+02:00" endTime="2025-10-16T11:35:29.1393031+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e612917f-8c98-4869-8d4c-44eb8bad3202" />
+    <UnitTestResult executionId="6a39a4e2-2687-4cfa-9c7d-727e3e843b8b" testId="00da0f56-e986-1451-da86-5282a157201f" testName="StacktimApi.Test.PlayersControllerTests.CreatePlayer_WithDuplicatePseudo_ReturnsBadRequest" computerName="XFIRLPDKPUSR005" duration="00:00:00.0228214" startTime="2025-10-16T11:35:29.1046171+02:00" endTime="2025-10-16T11:35:29.1046172+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a39a4e2-2687-4cfa-9c7d-727e3e843b8b" />
+    <UnitTestResult executionId="bd740872-a400-437e-a66c-ae06d892172e" testId="795fd637-2b24-f294-ff94-56bcc3049ecb" testName="Stacktim.Test.controllers.TeamsControllerTests.GetRoadster_WithValidId_ReturnsRoadster" computerName="XFIRLPDKPUSR005" duration="00:00:00.5088983" startTime="2025-10-16T11:35:29.0951778+02:00" endTime="2025-10-16T11:35:29.0951779+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd740872-a400-437e-a66c-ae06d892172e" />
+    <UnitTestResult executionId="0380c87c-c32c-4dc1-acad-af0df5402c5c" testId="ef6dff77-00ae-21bb-ddb5-26ebe4c9683a" testName="StacktimApi.Test.PlayersControllerTests.CreatePlayer_WithValidData_ReturnsCreated" computerName="XFIRLPDKPUSR005" duration="00:00:00.4944691" startTime="2025-10-16T11:35:29.0822360+02:00" endTime="2025-10-16T11:35:29.0822460+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0380c87c-c32c-4dc1-acad-af0df5402c5c" />
+    <UnitTestResult executionId="ac7bf800-4559-4742-9334-f2fd55ee93c0" testId="b4f8e1c1-c08c-3eae-ef0c-d77eeff0f76c" testName="Stacktim.Test.controllers.TeamsControllerTests.CreateTeam_WithDuplicateTag_ReturnsBadRequest" computerName="XFIRLPDKPUSR005" duration="00:00:00.0018007" startTime="2025-10-16T11:35:29.1291723+02:00" endTime="2025-10-16T11:35:29.1291724+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac7bf800-4559-4742-9334-f2fd55ee93c0" />
+    <UnitTestResult executionId="2d2643fa-ec9f-427b-9cc8-f1e0f33b21ad" testId="a58c06fb-020d-3c16-aa79-f0ea6a1c6b58" testName="Stacktim.Test.controllers.TeamsControllerTests.GetTeam_WithValidId_ReturnsTeam" computerName="XFIRLPDKPUSR005" duration="00:00:00.0027073" startTime="2025-10-16T11:35:29.1158926+02:00" endTime="2025-10-16T11:35:29.1158930+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d2643fa-ec9f-427b-9cc8-f1e0f33b21ad" />
+    <UnitTestResult executionId="75800da8-dbd0-4c74-9761-b5e1600f3925" testId="a7acf3d3-2fa8-4c9e-cbc1-fd39eedc2ae0" testName="StacktimApi.Test.PlayersControllerTests.DeletePlayer_WithValidId_ReturnsNoContent" computerName="XFIRLPDKPUSR005" duration="00:00:00.0087611" startTime="2025-10-16T11:35:29.1295547+02:00" endTime="2025-10-16T11:35:29.1295547+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75800da8-dbd0-4c74-9761-b5e1600f3925" />
+    <UnitTestResult executionId="26eb63bf-a61e-4c8b-b9ca-a4269db5888a" testId="68d0ee42-c67d-e875-308f-d857cd0c4876" testName="Stacktim.Test.controllers.TeamsControllerTests.CreateTeam_WithValidData_ReturnsCreated" computerName="XFIRLPDKPUSR005" duration="00:00:00.0122763" startTime="2025-10-16T11:35:29.1074690+02:00" endTime="2025-10-16T11:35:29.1074691+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26eb63bf-a61e-4c8b-b9ca-a4269db5888a" />
+    <UnitTestResult executionId="a8974144-9c5f-4b12-a431-798274b39373" testId="9ffb8d12-180d-127b-65f0-f3d9ff0ffe90" testName="StacktimApi.Test.PlayersControllerTests.GetLeaderboard_ReturnsOrderedPlayers" computerName="XFIRLPDKPUSR005" duration="00:00:00.0057400" startTime="2025-10-16T11:35:29.1289619+02:00" endTime="2025-10-16T11:35:29.1289620+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8974144-9c5f-4b12-a431-798274b39373" />
+    <UnitTestResult executionId="6b363c1b-b0d6-4829-88ea-30faaf2207ae" testId="cb16804f-1483-8c64-49b3-280c553414a9" testName="Stacktim.Test.controllers.TeamsControllerTests.GetTeams_ReturnsAllTeams" computerName="XFIRLPDKPUSR005" duration="00:00:00.0046794" startTime="2025-10-16T11:35:29.1131047+02:00" endTime="2025-10-16T11:35:29.1131048+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b363c1b-b0d6-4829-88ea-30faaf2207ae" />
+    <UnitTestResult executionId="eb79c000-d8a4-4cb5-b6ea-6b6ec9bea023" testId="a80ecf30-96f7-1cce-f86e-39f3eb3ccbc8" testName="StacktimApi.Test.PlayersControllerTests.GetPlayers_ReturnsAllPlayers" computerName="XFIRLPDKPUSR005" duration="00:00:00.0071111" startTime="2025-10-16T11:35:29.1117756+02:00" endTime="2025-10-16T11:35:29.1117757+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb79c000-d8a4-4cb5-b6ea-6b6ec9bea023" />
+    <UnitTestResult executionId="a8cdedfa-e57b-4f46-90c0-327ef26e690b" testId="aba82f4e-26b8-7a8e-f225-48794cf78ca5" testName="Stacktim.Test.controllers.TeamsControllerTests.GetRoadster_WithInvalidId_ReturnsNotFound" computerName="XFIRLPDKPUSR005" duration="00:00:00.0009536" startTime="2025-10-16T11:35:29.1083929+02:00" endTime="2025-10-16T11:35:29.1083929+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8cdedfa-e57b-4f46-90c0-327ef26e690b" />
+    <UnitTestResult executionId="ff87d332-466c-40a6-80ad-c016738de15e" testId="4d5aee40-c42b-e69b-c3a0-e028c0f4f182" testName="StacktimApi.Test.PlayersControllerTests.GetPlayer_WithValidId_ReturnsPlayer" computerName="XFIRLPDKPUSR005" duration="00:00:00.0016407" startTime="2025-10-16T11:35:29.1296973+02:00" endTime="2025-10-16T11:35:29.1296973+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff87d332-466c-40a6-80ad-c016738de15e" />
+    <UnitTestResult executionId="a9e6a229-59a8-42cc-bf86-a77cdb935a18" testId="44569d32-8158-b79f-9695-18121ce78041" testName="Stacktim.Test.controllers.TeamsControllerTests.GetTeam_WithInvalidId_ReturnsNotFound" computerName="XFIRLPDKPUSR005" duration="00:00:00.0050984" startTime="2025-10-16T11:35:29.1294462+02:00" endTime="2025-10-16T11:35:29.1294462+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9e6a229-59a8-42cc-bf86-a77cdb935a18" />
+    <UnitTestResult executionId="b852ea06-b947-45ac-818a-07750debee39" testId="2cdcc385-5201-1057-8423-12ab4822d9e0" testName="Stacktim.Test.controllers.TeamsControllerTests.CreateTeam_WithDuplicateName_ReturnsBadRequest" computerName="XFIRLPDKPUSR005" duration="00:00:00.0009520" startTime="2025-10-16T11:35:29.1293138+02:00" endTime="2025-10-16T11:35:29.1293138+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b852ea06-b947-45ac-818a-07750debee39" />
+    <UnitTestResult executionId="772db600-c9d1-4351-b1be-4a898d86070e" testId="19d87f0d-df70-1dfb-626e-c4913c84bf23" testName="StacktimApi.Test.PlayersControllerTests.GetPlayer_WithInvalidId_ReturnsNotFound" computerName="XFIRLPDKPUSR005" duration="00:00:00.0032718" startTime="2025-10-16T11:35:29.1312940+02:00" endTime="2025-10-16T11:35:29.1312941+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="772db600-c9d1-4351-b1be-4a898d86070e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Stacktim.Test.controllers.TeamsControllerTests.CreateTeam_WithDuplicateName_ReturnsBadRequest" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="2cdcc385-5201-1057-8423-12ab4822d9e0">
+      <Execution id="b852ea06-b947-45ac-818a-07750debee39" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Stacktim.Test.controllers.TeamsControllerTests" name="CreateTeam_WithDuplicateName_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="Stacktim.Test.controllers.TeamsControllerTests.GetTeam_WithInvalidId_ReturnsNotFound" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="44569d32-8158-b79f-9695-18121ce78041">
+      <Execution id="a9e6a229-59a8-42cc-bf86-a77cdb935a18" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Stacktim.Test.controllers.TeamsControllerTests" name="GetTeam_WithInvalidId_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="StacktimApi.Test.PlayersControllerTests.DeletePlayer_WithValidId_ReturnsNoContent" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="a7acf3d3-2fa8-4c9e-cbc1-fd39eedc2ae0">
+      <Execution id="75800da8-dbd0-4c74-9761-b5e1600f3925" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="StacktimApi.Test.PlayersControllerTests" name="DeletePlayer_WithValidId_ReturnsNoContent" />
+    </UnitTest>
+    <UnitTest name="Stacktim.Test.controllers.TeamsControllerTests.GetTeams_ReturnsAllTeams" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="cb16804f-1483-8c64-49b3-280c553414a9">
+      <Execution id="6b363c1b-b0d6-4829-88ea-30faaf2207ae" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Stacktim.Test.controllers.TeamsControllerTests" name="GetTeams_ReturnsAllTeams" />
+    </UnitTest>
+    <UnitTest name="StacktimApi.Test.PlayersControllerTests.GetLeaderboard_ReturnsOrderedPlayers" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="9ffb8d12-180d-127b-65f0-f3d9ff0ffe90">
+      <Execution id="a8974144-9c5f-4b12-a431-798274b39373" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="StacktimApi.Test.PlayersControllerTests" name="GetLeaderboard_ReturnsOrderedPlayers" />
+    </UnitTest>
+    <UnitTest name="Stacktim.Test.controllers.TeamsControllerTests.GetRoadster_WithValidId_ReturnsRoadster" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="795fd637-2b24-f294-ff94-56bcc3049ecb">
+      <Execution id="bd740872-a400-437e-a66c-ae06d892172e" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Stacktim.Test.controllers.TeamsControllerTests" name="GetRoadster_WithValidId_ReturnsRoadster" />
+    </UnitTest>
+    <UnitTest name="StacktimApi.Test.PlayersControllerTests.GetPlayer_WithValidId_ReturnsPlayer" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="4d5aee40-c42b-e69b-c3a0-e028c0f4f182">
+      <Execution id="ff87d332-466c-40a6-80ad-c016738de15e" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="StacktimApi.Test.PlayersControllerTests" name="GetPlayer_WithValidId_ReturnsPlayer" />
+    </UnitTest>
+    <UnitTest name="Stacktim.Test.controllers.TeamsControllerTests.GetTeam_WithValidId_ReturnsTeam" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="a58c06fb-020d-3c16-aa79-f0ea6a1c6b58">
+      <Execution id="2d2643fa-ec9f-427b-9cc8-f1e0f33b21ad" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Stacktim.Test.controllers.TeamsControllerTests" name="GetTeam_WithValidId_ReturnsTeam" />
+    </UnitTest>
+    <UnitTest name="StacktimApi.Test.PlayersControllerTests.GetPlayer_WithInvalidId_ReturnsNotFound" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="19d87f0d-df70-1dfb-626e-c4913c84bf23">
+      <Execution id="772db600-c9d1-4351-b1be-4a898d86070e" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="StacktimApi.Test.PlayersControllerTests" name="GetPlayer_WithInvalidId_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="StacktimApi.Test.PlayersControllerTests.GetPlayers_ReturnsAllPlayers" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="a80ecf30-96f7-1cce-f86e-39f3eb3ccbc8">
+      <Execution id="eb79c000-d8a4-4cb5-b6ea-6b6ec9bea023" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="StacktimApi.Test.PlayersControllerTests" name="GetPlayers_ReturnsAllPlayers" />
+    </UnitTest>
+    <UnitTest name="Stacktim.Test.controllers.TeamsControllerTests.GetRoadster_WithInvalidId_ReturnsNotFound" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="aba82f4e-26b8-7a8e-f225-48794cf78ca5">
+      <Execution id="a8cdedfa-e57b-4f46-90c0-327ef26e690b" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Stacktim.Test.controllers.TeamsControllerTests" name="GetRoadster_WithInvalidId_ReturnsNotFound" />
+    </UnitTest>
+    <UnitTest name="StacktimApi.Test.PlayersControllerTests.CreatePlayer_WithDuplicatePseudo_ReturnsBadRequest" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="00da0f56-e986-1451-da86-5282a157201f">
+      <Execution id="6a39a4e2-2687-4cfa-9c7d-727e3e843b8b" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="StacktimApi.Test.PlayersControllerTests" name="CreatePlayer_WithDuplicatePseudo_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="Stacktim.Test.controllers.TeamsControllerTests.CreateTeam_WithValidData_ReturnsCreated" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="68d0ee42-c67d-e875-308f-d857cd0c4876">
+      <Execution id="26eb63bf-a61e-4c8b-b9ca-a4269db5888a" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Stacktim.Test.controllers.TeamsControllerTests" name="CreateTeam_WithValidData_ReturnsCreated" />
+    </UnitTest>
+    <UnitTest name="StacktimApi.Test.PlayersControllerTests.CreatePlayer_WithValidData_ReturnsCreated" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="ef6dff77-00ae-21bb-ddb5-26ebe4c9683a">
+      <Execution id="0380c87c-c32c-4dc1-acad-af0df5402c5c" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="StacktimApi.Test.PlayersControllerTests" name="CreatePlayer_WithValidData_ReturnsCreated" />
+    </UnitTest>
+    <UnitTest name="StacktimApi.Test.PlayersControllerTests.CreatePlayer_WithDuplicateEmail_ReturnsBadRequest" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="0eb4b715-f691-6706-9f99-d39a6237219a">
+      <Execution id="e612917f-8c98-4869-8d4c-44eb8bad3202" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="StacktimApi.Test.PlayersControllerTests" name="CreatePlayer_WithDuplicateEmail_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="Stacktim.Test.controllers.TeamsControllerTests.CreateTeam_WithDuplicateTag_ReturnsBadRequest" storage="c:\users\g.botton\documents\stacktim.test\bin\debug\net9.0\stacktim.test.dll" id="b4f8e1c1-c08c-3eae-ef0c-d77eeff0f76c">
+      <Execution id="ac7bf800-4559-4742-9334-f2fd55ee93c0" />
+      <TestMethod codeBase="C:\Users\g.botton\Documents\Stacktim.Test\bin\Debug\net9.0\Stacktim.Test.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Stacktim.Test.controllers.TeamsControllerTests" name="CreateTeam_WithDuplicateTag_ReturnsBadRequest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="0eb4b715-f691-6706-9f99-d39a6237219a" executionId="e612917f-8c98-4869-8d4c-44eb8bad3202" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00da0f56-e986-1451-da86-5282a157201f" executionId="6a39a4e2-2687-4cfa-9c7d-727e3e843b8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="795fd637-2b24-f294-ff94-56bcc3049ecb" executionId="bd740872-a400-437e-a66c-ae06d892172e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef6dff77-00ae-21bb-ddb5-26ebe4c9683a" executionId="0380c87c-c32c-4dc1-acad-af0df5402c5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4f8e1c1-c08c-3eae-ef0c-d77eeff0f76c" executionId="ac7bf800-4559-4742-9334-f2fd55ee93c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a58c06fb-020d-3c16-aa79-f0ea6a1c6b58" executionId="2d2643fa-ec9f-427b-9cc8-f1e0f33b21ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7acf3d3-2fa8-4c9e-cbc1-fd39eedc2ae0" executionId="75800da8-dbd0-4c74-9761-b5e1600f3925" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68d0ee42-c67d-e875-308f-d857cd0c4876" executionId="26eb63bf-a61e-4c8b-b9ca-a4269db5888a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ffb8d12-180d-127b-65f0-f3d9ff0ffe90" executionId="a8974144-9c5f-4b12-a431-798274b39373" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb16804f-1483-8c64-49b3-280c553414a9" executionId="6b363c1b-b0d6-4829-88ea-30faaf2207ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a80ecf30-96f7-1cce-f86e-39f3eb3ccbc8" executionId="eb79c000-d8a4-4cb5-b6ea-6b6ec9bea023" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aba82f4e-26b8-7a8e-f225-48794cf78ca5" executionId="a8cdedfa-e57b-4f46-90c0-327ef26e690b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d5aee40-c42b-e69b-c3a0-e028c0f4f182" executionId="ff87d332-466c-40a6-80ad-c016738de15e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44569d32-8158-b79f-9695-18121ce78041" executionId="a9e6a229-59a8-42cc-bf86-a77cdb935a18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cdcc385-5201-1057-8423-12ab4822d9e0" executionId="b852ea06-b947-45ac-818a-07750debee39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19d87f0d-df70-1dfb-626e-c4913c84bf23" executionId="772db600-c9d1-4351-b1be-4a898d86070e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 9.0.9)&#xD;
+[xUnit.net 00:00:00.06]   Discovering: Stacktim.Test&#xD;
+[xUnit.net 00:00:00.08]   Discovered:  Stacktim.Test&#xD;
+[xUnit.net 00:00:00.09]   Starting:    Stacktim.Test&#xD;
+[xUnit.net 00:00:00.66]   Finished:    Stacktim.Test&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="XFIRLPDKPUSR005" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="XFIRLPDKPUSR005\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

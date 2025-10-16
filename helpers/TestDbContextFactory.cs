@@ -53,6 +53,35 @@ namespace BOTTON_ASPNET.Tests.Helpers
                 context.SaveChanges();
             }
 
+            if (!context.Teams.Any())
+            {
+                context.Teams.AddRange(
+                    new TeamModel
+                    {
+                        Id = 1,
+                        Name = "ALPHA",
+                        Tag = "ALP",
+                        CreationDate = new DateOnly(2023, 01, 01)
+                    },
+                    new TeamModel
+                    {
+                        Id = 2,
+                        Name = "BETA",
+                        Tag = "BET",
+                        CreationDate = new DateOnly(2023, 01, 01)
+                    },
+                    new TeamModel
+                    {
+                        Id = 3,
+                        Name = "GAMMA",
+                        Tag = "GAM",
+                        CreationDate = new DateOnly(2023, 01, 01)
+                    }
+                );
+
+                context.SaveChanges();
+            }
+
             return context;
         }
 
