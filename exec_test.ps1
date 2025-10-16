@@ -1,4 +1,4 @@
-﻿$projectPath = Join-Path $PSScriptRoot "Stacktim.Test.csproj"
+$projectPath = Join-Path $PSScriptRoot "Stacktim.Test.csproj"
 
 $coverageDir = Join-Path $PSScriptRoot "TestDirResult"
 $coverageFile = Join-Path $PSScriptRoot "coverage.xml"
